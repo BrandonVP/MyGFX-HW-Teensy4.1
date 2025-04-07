@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyGFX-HW-Teensy4.1", "MyGFX-HW-Teensy4.1\MyGFX-HW-Teensy4.1.vcxproj", "{0ADB2AC6-7545-4F1E-AD1A-2B1DEA0A016E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "myGFX-SW-ScanToolFD", "myGFX-SW-ScanToolFD\myGFX-SW-ScanToolFD\myGFX-SW-ScanToolFD\myGFX-SW-ScanToolFD.vcxitems", "{4CFE852E-DD30-498F-9C07-CDE000A5E9A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM

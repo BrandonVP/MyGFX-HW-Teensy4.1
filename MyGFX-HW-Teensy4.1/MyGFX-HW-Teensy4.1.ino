@@ -4,6 +4,8 @@
  Author:	bvanpelt
 */
 
+#include <Adafruit_FT6206.h>
+
 // the setup function runs once when you press reset or power the board
 void setup() {
 

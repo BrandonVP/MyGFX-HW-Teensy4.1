@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>xml;json;txt;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{f7d4766c-1e07-4ef7-a6aa-9d61f5a08361}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="src\arduino folders read me.txt">
@@ -21,10 +24,16 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MyGFX-HW-Teensy4.1.ino" />
+    <ClCompile Include="libraries\Adafruit_FT6206_Library\Adafruit_FT6206.cpp">
+      <Filter>Libraries</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="__vm\.MyGFX-HW-Teensy4.1.vsarduino.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_FT6206_Library\Adafruit_FT6206.h">
+      <Filter>Libraries</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
